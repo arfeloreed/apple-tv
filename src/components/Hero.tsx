@@ -36,14 +36,17 @@ const Hero = () => {
           whileInView="visible"
           exit="hidden"
           animate="hidden"
-          viewport={{ amount: 0.98 }}
+          viewport={{ amount: 0.9 }}
+          transition={{
+            duration: 1,
+          }}
         >
           <h1 className="mb-10 text-4xl font-bold md:text-5xl">
             All Apple Originals. <br />
             Only on Apple TV+.
           </h1>
 
-          <Button className="mb-16" size="large">
+          <Button className="mb-16 font-bold" size="large">
             Stream now
           </Button>
 

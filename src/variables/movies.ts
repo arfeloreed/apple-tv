@@ -35,3 +35,28 @@ export const randomMoviesSet2 = movies
   .concat(movies.sort(() => Math.random() - 0.5))
   .concat(movies.sort(() => Math.random() - 0.5))
   .sort(() => Math.random() - 0.5);
+
+export const subcribeTexts = [
+  {
+    id: 1,
+    top: "Buy an Apple device",
+    heading: "3 months free",
+    desc: "Apple TV+ is included for 3 months when you purchase an Apple device and redeem the offer within 90 days.",
+    buttonText: "Check eligibility",
+  },
+  {
+    id: 2,
+    top: "Free 7-day trial",
+    heading: "₱499.00/mo.",
+    desc: "A monthly subscription is just ₱499.00 per month after a free 7-day trial. Share Apple TV+ with your family.",
+    buttonText: "Try it free",
+  },
+  {
+    id: 3,
+    top: "Free 1-month trial",
+    heading: "Apple One",
+    desc: "Bundle Apple TV+ with up to five other great services for one low monthly price. And enjoy more for less.",
+    buttonText: "Try Apple One free",
+    linktext: "Learn more >",
+  },
+];
