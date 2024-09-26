@@ -118,9 +118,9 @@ const Carousel = () => {
                 className="absolute bottom-0 left-0 flex w-full flex-col items-center gap-4 p-5 text-lg
                   text-white md:flex-row md:justify-between md:gap-0"
               >
-                <p className="text-3xl font-bold">Best video title ever</p>
+                <p className="text-3xl font-bold">Ang ganda ng title</p>
 
-                <Button>Watch now</Button>
+                <Button className="font-bold">Watch now</Button>
               </motion.div>
             </motion.div>
 
