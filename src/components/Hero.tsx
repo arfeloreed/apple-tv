@@ -14,7 +14,7 @@ const Hero = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.63, 1], [1, 1, 0]);
 
   return (
-    <div className="bg-dark text-white">
+    <div className="relative bg-dark text-white">
       <motion.div
         style={{ opacity }}
         ref={imgContainerRef}
