@@ -1,32 +1,26 @@
 import Container from "./ui/Container";
-import appleTV from "../assets/images/apple-tv-icon.png";
+import DevicesHeading from "./ui/DevicesHeading";
+import DevicesCon from "./ui/DevicesCon";
+import BrandsCon from "./ui/BrandsCon";
 
 const Devices = () => {
   return (
     <Container>
-      <div className="pb-14 pt-32 text-center">
-        <figure
-          style={{
-            width: "76px",
-            height: "76px",
-            backgroundImage: `url(${appleTV})`,
-            backgroundSize: "76px 76px",
-            backgroundRepeat: "no-repeat",
-            margin: "0 auto 17px",
-          }}
-        />
-        <h2 className="text-5xl font-bold leading-[1.0556] tracking-[-0.012em] text-textDark">
-          Watch Apple TV+ anywhere <br /> on the Apple TV app.
-        </h2>
-        <p className="mb-[18px] mt-5 text-base leading-normal tracking-[-0.022em] text-textDark">
-          Find the Apple TV app on your favorite Apple devices.
-          <br /> Or watch Apple TV+ online at{" "}
-          <span className="cursor-pointer text-blue-600 transition hover:underline">
-            tv.apple.com
-          </span>
-          .
+      <DevicesHeading />
+      <DevicesCon />
+
+      <div className="mt-16 text-center">
+        <p className="text-3xl font-medium leading-[1.1] tracking-wide md:text-4xl">
+          See it on your smart TV <br />
+          or streaming device.
+        </p>
+        <p className="mt-3 cursor-pointer text-blue-500">
+          <span className="transition hover:underline">Set up your device</span>{" "}
+          &gt;
         </p>
       </div>
+
+      <BrandsCon />
     </Container>
   );
 };
