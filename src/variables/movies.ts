@@ -1,3 +1,22 @@
+import {
+  appleTV,
+  iphone,
+  ipad,
+  mac,
+  appleVision,
+  airPlay,
+  samsung,
+  lg,
+  vizio,
+  sony,
+  xfinity,
+  roku,
+  firetv,
+  googletv,
+  playstation,
+  xbox,
+} from "../assets/images";
+
 export type Movie = {
   poster: string;
   name: string;
@@ -23,6 +42,10 @@ export const movies = [
     name: "Scary Building",
   },
   { poster: "/src/assets/images/stars.webp", name: "Stars" },
+  { poster: "/src/assets/images/avatar.webp", name: "Avatar" },
+  { poster: "/src/assets/images/movie.webp", name: "Movie" },
+  { poster: "/src/assets/images/squid-game.webp", name: "Squid game" },
+  { poster: "/src/assets/images/war.webp", name: "War" },
 ];
 
 export const randomMoviesSet1 = movies
@@ -59,4 +82,34 @@ export const subcribeTexts = [
     buttonText: "Try Apple One free",
     linktext: "Learn more >",
   },
+];
+
+export const logos = [
+  { id: 1, img: appleTV, text: "Apple TV" },
+  { id: 2, img: iphone, text: "IPhone" },
+  { id: 3, img: ipad, text: "IPad" },
+  { id: 4, img: mac, text: "Mac" },
+  { id: 5, img: appleVision, text: "Apple Vision Pro" },
+  { id: 6, img: airPlay, text: "AirPlay" },
+];
+
+export const brands = [
+  { id: 1, name: samsung },
+  { id: 2, name: lg },
+  { id: 3, name: vizio },
+  { id: 4, name: sony },
+  { id: 5, name: xfinity },
+  { id: 6, name: roku },
+  { id: 7, name: firetv },
+  { id: 8, name: googletv },
+  { id: 9, name: playstation },
+  { id: 10, name: xbox },
+];
+
+export const footerLinks = [
+  "Privacy Policy",
+  "Terms of Use",
+  "Sales Policy",
+  "Legal",
+  "Site Map",
 ];
