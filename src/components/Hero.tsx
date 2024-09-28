@@ -2,8 +2,7 @@ import Button from "./ui/Button";
 import Container from "./ui/Container";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-
-import napoleonImg from "../assets/images/napoleon.webp";
+import { napoleon, avatar } from "../assets/images";
 
 const Hero = () => {
   const imgContainerRef = useRef<HTMLDivElement>(null);
@@ -22,7 +21,7 @@ const Hero = () => {
       >
         <img
           className="sticky top-0 h-screen w-full object-cover"
-          src={napoleonImg}
+          src={avatar}
         />
       </motion.div>
 

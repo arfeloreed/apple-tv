@@ -16,6 +16,18 @@ import googletv from "./google-tv.jpg";
 import playstation from "./playstation.jpg";
 import xbox from "./xbox.jpg";
 
+import airplane from "./airplane.webp";
+import familyMan from "./family-man.webp";
+import laboratory from "./laboratory.webp";
+import napoleon from "./napoleon.webp";
+import personDarkness from "./person-in-darkness.webp";
+import scaryBuilding from "./scary-building.webp";
+import stars from "./stars.webp";
+import avatar from "./avatar.webp";
+import movie from "./movie.webp";
+import squidGame from "./squid-game.webp";
+import warPlanes from "./war.webp";
+
 export {
   appleTV,
   iphone,
@@ -33,4 +45,15 @@ export {
   googletv,
   playstation,
   xbox,
+  airplane,
+  familyMan,
+  laboratory,
+  napoleon,
+  personDarkness,
+  scaryBuilding,
+  stars,
+  avatar,
+  movie,
+  squidGame,
+  warPlanes,
 };

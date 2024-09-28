@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="text-xs font-normal">Philippines</p>
+            <p className="text-xs font-normal max-md:mt-3">Philippines</p>
           </div>
         </div>
       </footer>

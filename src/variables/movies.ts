@@ -15,6 +15,17 @@ import {
   googletv,
   playstation,
   xbox,
+  airplane,
+  familyMan,
+  laboratory,
+  napoleon,
+  personDarkness,
+  scaryBuilding,
+  stars,
+  avatar,
+  movie,
+  squidGame,
+  warPlanes,
 } from "../assets/images";
 
 export type Movie = {
@@ -23,29 +34,29 @@ export type Movie = {
 };
 
 export const movies = [
-  { poster: "/src/assets/images/airplane.webp", name: "Airplane" },
+  { poster: airplane, name: "Airplane" },
   {
-    poster: "/src/assets/images/family-man.webp",
+    poster: familyMan,
     name: "Family man",
   },
   {
-    poster: "/src/assets/images/laboratory.webp",
+    poster: laboratory,
     name: "Laboratory",
   },
-  { poster: "/src/assets/images/napoleon.webp", name: "Napoleon" },
+  { poster: napoleon, name: "Napoleon" },
   {
-    poster: "/src/assets/images/person-in-darkness.webp",
+    poster: personDarkness,
     name: "Person in Darkness",
   },
   {
-    poster: "/src/assets/images/scary-building.webp",
+    poster: scaryBuilding,
     name: "Scary Building",
   },
-  { poster: "/src/assets/images/stars.webp", name: "Stars" },
-  { poster: "/src/assets/images/avatar.webp", name: "Avatar" },
-  { poster: "/src/assets/images/movie.webp", name: "Movie" },
-  { poster: "/src/assets/images/squid-game.webp", name: "Squid game" },
-  { poster: "/src/assets/images/war.webp", name: "War" },
+  { poster: stars, name: "Stars" },
+  { poster: avatar, name: "Avatar" },
+  { poster: movie, name: "Movie" },
+  { poster: squidGame, name: "Squid game" },
+  { poster: warPlanes, name: "Planes on war" },
 ];
 
 export const randomMoviesSet1 = movies
